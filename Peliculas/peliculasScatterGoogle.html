@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="peliculasData4.js"></script>
+    <script type="text/javascript">
+	
+	
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+	 function drawChart() {
+        var dataTable = new google.visualization.DataTable();
+        dataTable.addColumn('number', 'ano');
+		dataTable.addColumn('number', 'ganancia');
+		dataTable.addColumn({type: 'string', role: 'tooltip'});
+		
+		
+		x=[]; y=[];text=[];  
+        for (i=0;i<obj.length;i++) {
+          x[i]=obj[i][0];
+          y[i]=obj[i][1];
+          text[i]=obj[i][3];
+          dataTable.addRows([[x[i], y[i], text[i]]]);
+        }
+
+		var options = {
+          title: 'Ganancia de peliculas',
+          hAxis: {title: 'año', minValue: 1980, maxValue: 2018},
+          vAxis: {title: 'ganancia($)', minValue: 190000000, maxValue:999999999 },
+          pointSize: 4,
+          legend: 'none'
+        };
+
+		var chart = new google.visualization.ScatterChart(document.getElementById('chart_div'));
+
+    chart.draw(dataTable, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="chart_div" style="width: 1200px; height: 800px;"></div>
+  </body>
+</html>
