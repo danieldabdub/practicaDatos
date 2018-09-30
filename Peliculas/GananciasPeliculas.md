@@ -3,7 +3,7 @@
 <h1> Estadística Industrial </h1>
 <h3> Gestión de Datos </h3>
 <h5> Daniel Dabdub </h5>
-<h5></h5>
+<br>
 
 <p> El objetivo de este trabajo es dar a conocer cuales son las películas con mayor ganancia en la historia del cine. También se determinará qué estudios de cine son los que  más películas de esta lista tienen. Toda esta información será reflejada en 2 diferentes gráficas.  </p> 
 
@@ -17,7 +17,7 @@
 <p> Para visualizar los datos recogidos se emplearon gráficos recogidos de Google Charts <a href= "https://developers.google.com/chart/interactive/docs/gallery" > Opciones de gráficos de Google <a>. En este trabajo se utilizaron los gráficos "Scatter" y "Donut". 
   
   El Scatter se utilizó para mostrar para cada película, la ganancia obtenida en cierto año: <a href= "https://danieldabdub.github.io/practicaDatos/Peliculas/peliculasScatterGoogle.html"> Grafica scatter de peliculas </a>
-  El Donut se utilizó para mostrar la cantidad de películas por estudio: <a href ="https://danieldabdub.github.io/practicaDatos/Peliculas/peliculasDonutGoogle.html"> Grafica donut de estudios </a>
-  </p>
+  .El Donut se utilizó para mostrar la cantidad de películas por estudio: <a href ="https://danieldabdub.github.io/practicaDatos/Peliculas/peliculasDonutGoogle.html"> Grafica donut de estudios </a>
+
   
 
