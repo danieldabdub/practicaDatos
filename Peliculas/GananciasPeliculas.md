@@ -14,8 +14,8 @@
   
 <p> Los datos fueron extraídos por la función recogerPeliculas(), que se puede visualizar en el siguiente link <a href= "https://danieldabdub.github.io/practicaDatos/Peliculas/recogerPeliculas.js"  > recogerPeliculas </a>  y los datos obtenidos por dicha función fueron los siguientes, guardados en un archivo del tipo JSON <a href= "peliculasData4.js"> peliculasDataRecogida </a></p>
 
-<p> Para visualizar los datos recogidos se emplearon gráficos recogidos de Google Charts <a href= "https://developers.google.com/chart/interactive/docs/gallery" > Opciones de gráficos de Google <a>. En este trabajo se utilizaron los gráficos "Scatter" y "Donut". </p>
-  
+Para visualizar los datos recogidos se emplearon gráficos recogidos de Google Charts <a href= "https://developers.google.com/chart/interactive/docs/gallery" > Opciones de gráficos de Google <a>. En este trabajo se utilizaron los gráficos "Scatter" y "Donut". 
+  <br>
   El Scatter se utilizó para mostrar para cada película, la ganancia obtenida en cierto año: <a href= "https://danieldabdub.github.io/practicaDatos/Peliculas/peliculasScatterGoogle.html"> Grafica scatter de peliculas </a> <br>El Donut se utilizó para mostrar la cantidad de películas por estudio: <a href ="https://danieldabdub.github.io/practicaDatos/Peliculas/peliculasDonutGoogle.html"> Grafica donut de estudios </a>
 
   
