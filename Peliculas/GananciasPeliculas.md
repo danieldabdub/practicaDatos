@@ -1,7 +1,8 @@
 <html>
 
 <h1> Estadística Industrial </h1>
-<h1> Gestión de Datos </h1>
+<h3> Gestión de Datos </h3>
+<h5> Daniel Dabdub </h5>
 
 <p> El objetivo de este trabajo es dar a conocer cuales son las películas con mayor ganancia en la historia del cine. También </p> 
 <p>Para esto, analizaremos una página web que ordena de mayor a menor las películas con mayor ganancia registrada.</p> 
